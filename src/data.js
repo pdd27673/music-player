@@ -3,62 +3,68 @@ import { v4 as uuidv4 } from 'uuid';
 const chillBops = () => {
   return [
     {
-      name: 'Time Away',
-      cover: 'https://f4.bcbits.com/img/a2552542265_10.jpg',
-      artist: 'Slowheal',
+      name: 'Whoopty',
+      cover:
+        'https://assets.audiomack.com/cj/9df9c1bd9be599b7fe9b066d2d18ba2243b97b12b33f5257901b637c348f0847.jpeg?width=280&height=280&max=true',
+      artist: 'CJ',
       audio:
-        'https://t4.bcbits.com/stream/9d2fd495443e97df92d96af5be611ec9/mp3-128/3967874342?p=0&ts=1606423417&t=0e66655dab8e4162a95815d40729354a7b97e16c&token=1606423417_c7692f39f1124690d5edbd431695e86b065a6d11',
-      color: ['84CEF0', '6C9E57'],
+        'https://music.audiomack.com/streaming/cj/whoopty-1.mp3?Expires=1606507652&Signature=YQvvRW9c8EjV0FGpY7J9YyO4WCTTvOmnsLBq~B1~ywpp1FUqCppCPbizhU0QOscW7BGOaZ7aPIQYUlwF71YTxQkOX~cH4pGkNeXXeLSz8ktEjd9kcIfQ32OZYXV-XS6YKejuxwASW2-WG7zY5JE9JSgna2vl7CGdKk3J6o-6fl0_&Key-Pair-Id=APKAIKAIRXBA2H7FXITA',
+      color: ['#DB332E', '#742424'],
       id: uuidv4(),
       active: false,
     },
     {
-      name: 'The Other Side',
-      cover: 'https://f4.bcbits.com/img/a3580807913_10.jpg',
-      artist: "l'Outlander",
+      name: 'Runnin',
+      cover:
+        'https://assets.audiomack.com/21savage/a51f5da86bb0ff4c383a7b8386d2f82ec18e8a22442a2f0c19219ca3359db662.jpeg?width=280&height=280&max=true',
+      artist: '21 Savage & Metro Boomin',
       audio:
-        'https://t4.bcbits.com/stream/5972fbd474ef8c1215c5bfd40308aade/mp3-128/2870707709?p=0&ts=1606428448&t=7bf7566dd522e2a793ffdb541831be4709c44450&token=1606428448_e3bdcb0b7170d11a4c74f7d156cf778796f6127d',
-      color: ['#F0879E', '#E89170'],
+        'https://music.audiomack.com/albums/21savage/savage-mode-ii/streaming/6-runnin-explicit-21-savage-metro-boomin.mp3?Expires=1606508079&Signature=DUlawugXonnf5jnP69U51y6eymqnrYGBsrLEDmU3No0h2qqLK0TRGnFreHqicdXC1~Td2VOBXCxCgcc9tyHzz-E9r41xcN0zOrq8G8WKm6h0inC7uyggVwb-HPUNvbw7bGPgbkAYt5mZSdKgOCnIMm3A-xuhuNWF3Y6PbXLmUxw_&Key-Pair-Id=APKAIKAIRXBA2H7FXITA',
+      color: ['#DB332E', '#B8DEE0'],
       id: uuidv4(),
       active: false,
     },
     {
-      name: 'One Missed Call (feat. jonny ellis)',
-      cover: 'https://f4.bcbits.com/img/a1356330629_10.jpg',
-      artist: 'vhsgus',
+      name: 'Tyler Herro',
+      cover:
+        'https://assets.audiomack.com/jackharlow/c34b7d102674f6fbb94b2bbeed22117e8debb04753135dd3e2a25a3adceec049.jpeg?width=280&height=280&max=true',
+      artist: 'Jack Harlow',
       audio:
-        'https://t4.bcbits.com/stream/30d29a8f7e944d6b105525306eb30365/mp3-128/1471111990?p=0&ts=1606428612&t=f48375c222b536fcbe8137de92b94946ad83fd30&token=1606428612_757cb6a1ce035d00fb77bf1b7e541db3e65093fc',
-      color: ['#3B518C', '#D86E61'],
+        'https://music.audiomack.com/streaming/jackharlow/tyler-herro.mp3?Expires=1606507652&Signature=LVGQnMAv1XMVhgEVD338DJsAG9Ec3--ElkvF2jTKzktzTFaCLWEj8C7qSkjmGqmu~umx9vx47-1S248H2oldQHEtfDoqb-8o3f2jfYClySMoOu0i23oGAdJrLreE1cIDbPx8V~FFfXxPyU31lodrxD1YH8dao5CD3XKcP0gUlKQ_&Key-Pair-Id=APKAIKAIRXBA2H7FXITA',
+      color: ['#EFE2D0', '#C46E2F'],
       id: uuidv4(),
       active: false,
     },
     {
-      name: 'A Day In The Park EP',
-      cover: 'https://f4.bcbits.com/img/a3633918266_10.jpg',
-      artist: 'No Spirit',
+      name: 'Martin & Gina',
+      cover:
+        'https://assets.audiomack.com/polog/a70863d36f4964be0b76205a6ef2e5a124243bdd2a0cfd181e57192baf79945e.jpeg?width=280&height=280&max=true',
+      artist: 'Polo G',
       audio:
-        'https://t4.bcbits.com/stream/3c75f8028ae615bdb056dc55c26ce45f/mp3-128/3123409723?p=0&ts=1606428799&t=6b1cb32566724f0c7c93bc37b5703d889e10b330&token=1606428799_07f8f871be958f51ad7907412cafbce1c5243f98',
-      color: ['#EAC865', '#E7AD80'],
+        'https://music.audiomack.com/albums/polog/the-goat/streaming/martin-gina-explicit.mp3?Expires=1606507886&Signature=fnJFKwwqG4cHLEinYZKAeUlql9DNRBRmMjelHPUeJVOcdDOeOzHkTyJDgA3wuoJBAx4mCQPPLFzR9TVlA~481WmLKHbD~2pyg2GjuA1av3hukbqUKrO5jkConx9YXb~xqtmpCOAQvnFvHiJ2niJ-TAjf082xxZJMR7-Vaniwn3k_&Key-Pair-Id=APKAIKAIRXBA2H7FXITA',
+      color: ['#0C0C0C', '#42453F'],
       id: uuidv4(),
       active: false,
     },
     {
-      name: 'Do Your Ting',
-      cover: 'https://f4.bcbits.com/img/a4051923887_10.jpg',
-      artist: 'Otis Ubaka',
+      name: 'Holy Ground',
+      cover:
+        'https://assets.audiomack.com/davido/2de67507a7316b8f82e56187d4efac3a0f62a0c87465d501bb964800da337e73.jpeg?width=280&height=280&max=true',
+      artist: 'Davido',
       audio:
-        'https://t4.bcbits.com/stream/d4f65d26a76eafdb96a2645b184b0afd/mp3-128/3561612510?p=0&ts=1606428937&t=a1d99c67bc2da2c8909561ca76a88a485d1321a4&token=1606428937_47d572e5d30d61ebca48e996dd20407ddb5b099c',
-      color: ['#92483F', '#768892'],
+        'https://music.audiomack.com/albums/davido/a-better-time/streaming/holy-ground.mp3?Expires=1606508590&Signature=Oc0doPIelfRL757KQPNoL-tJu87O3kSjFmbdbg4vMpxHz01v9xmrh3jC~jUGqHRDSJJwLrknT1hb9xD4uijWmCWol3F17D~sejOC3kcf-bVRxVZCUovpqC7ed0ucqIkNTMqAfoMX~88PAk6-nZzjZVjyQQ~FQ1Po3bJpWa-O1bQ_&Key-Pair-Id=APKAIKAIRXBA2H7FXITA',
+      color: ['#BFC1C3', '#5A5345'],
       id: uuidv4(),
       active: false,
     },
     {
-      name: 'Mirage',
-      cover: 'https://f4.bcbits.com/img/a2321733166_10.jpg',
-      artist: 'Nymano',
+      name: 'No Stress',
+      cover:
+        'https://assets.audiomack.com/wizkid/7a0a60e23501ccd56e801edcd487a34e69c14b329f0db8264355b7f9aab63b4e.jpeg?width=280&height=280&max=true',
+      artist: 'Wizkid',
       audio:
-        'https://t4.bcbits.com/stream/f48885eb14641d152e437a08be7e7eac/mp3-128/1898940742?p=0&ts=1606429190&t=9cef9bb1bf50a417cce522abfe66eb4007a09fb9&token=1606429190_3d539d6dbddf2cac96fa286c18f174187ac63055',
-      color: ['#92628C', '#635681'],
+        'https://music.audiomack.com/albums/wizkid/made-in-lagos/streaming/no-stress-.mp3?Expires=1606508590&Signature=B2mzieL6nMSTloydAi84mC-TSVSYYL0HFGsJGJZ0wDrlUIg3R3UWSOuYRqiOzIcLKKS369TJU7-BBP0mT3BUQHKXAeca7EdpbqhLbzQBSTUbI5K0FiCjsvbgBNFBMh53wsX4ZNegDD~4oJH6JHsDhgbnUI94rSo370BZCX6F~8o_&Key-Pair-Id=APKAIKAIRXBA2H7FXITA',
+      color: ['#F2E1CF', '#A49487'],
       id: uuidv4(),
       active: false,
     },
