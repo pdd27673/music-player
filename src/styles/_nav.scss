@@ -3,17 +3,18 @@ nav {
     display: flex;
     justify-content: space-around;
     align-content: center;
+    padding: .8rem;
 
     button {
         background: transparent;
         cursor: pointer;
-        border: none;
-        border: 2px solid rgd(65, 65, 65);
+        border: 2px solid blue;
         padding: .5rem;
         transition: all .3s ease;
+        height: 70%;
 
         &:hover {
-            background: rgb(65, 65, 65);
+            background: blue;
             color: white;
         }
     }
