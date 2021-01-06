@@ -1,6 +1,8 @@
 import React, { useState, useRef } from 'react';
+
 // Import styles
 import './styles/app.scss';
+
 // adding components
 import Player from './components/Player';
 import Song from './components/Song';
@@ -44,7 +46,7 @@ function App() {
 
   const songEndHandler = async () => {
     const currentIndex = songs.findIndex((song) => song.id === currentSong.id);
-    await setCurrentSong(songs[(currentIndex + 1) % songs.length]);
+    setCurrentSong(songs[(currentIndex + 1) % songs.length]);
     if (isPlaying) audioRef.current.play();
   };
   return (
