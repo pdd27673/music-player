@@ -14,7 +14,7 @@ const chillBops = () => {
       active: false,
     },
     {
-      name: 'Runnin',
+      name: 'Runnin/',
       cover:
         'https://assets.audiomack.com/21savage/a51f5da86bb0ff4c383a7b8386d2f82ec18e8a22442a2f0c19219ca3359db662.jpeg?width=280&height=280&max=true',
       artist: '21 Savage & Metro Boomin',
@@ -30,7 +30,7 @@ const chillBops = () => {
         'https://assets.audiomack.com/jackharlow/c34b7d102674f6fbb94b2bbeed22117e8debb04753135dd3e2a25a3adceec049.jpeg?width=280&height=280&max=true',
       artist: 'Jack Harlow',
       audio:
-        'https://music.audiomack.com/streaming/jackharlow/tyler-herro.mp3?Expires=1606507652&Signature=LVGQnMAv1XMVhgEVD338DJsAG9Ec3--ElkvF2jTKzktzTFaCLWEj8C7qSkjmGqmu~umx9vx47-1S248H2oldQHEtfDoqb-8o3f2jfYClySMoOu0i23oGAdJrLreE1cIDbPx8V~FFfXxPyU31lodrxD1YH8dao5CD3XKcP0gUlKQ_&Key-Pair-Id=APKAIKAIRXBA2H7FXITA',
+        'https://music.audiomack.com/streaming/jackharlow/tyler-herro.mp3?Expires=1610260596&Signature=iLRD6IDM~ZK7DBw~xqDrv3NVoc7rBtkNkS4l7aZPyrU67opC4GI3RDRVn1hjsQBLBxVUoL3SuQXtXvfGVO918-h~LNx9FFe7eQGaFlAtLHDmsVwlBwPMuoj8A3nm61q6RwsIZmwe~GDfnTacHAy0zROS03Xi535tI1wZP2sL-4c_&Key-Pair-Id=APKAIKAIRXBA2H7FXITA',
       color: ['#EFE2D0', '#C46E2F'],
       id: uuidv4(),
       active: false,
